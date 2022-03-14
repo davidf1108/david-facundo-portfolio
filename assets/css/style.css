@@ -80,12 +80,12 @@
       /* SECTION TITLE STYLES START */
   .section-title {
     font-size: 48px;
-    border-right: 3px solid;
     color: #ffffff;
     padding-bottom: 20px;
     text-align: center;
-    margin: 0 auto 35px auto;
+    margin: 45px auto 35px auto;
     width: 50%;
+    margin-left: 30px;
   }
   
   .primary-border {
@@ -106,7 +106,7 @@
     line-height: 1.7;
     color: #ffffff;
     width: 80%;
-    margin: 0 auto;
+    margin: 25px auto;
     font-size: 20px;
     text-align: center;
   }
@@ -123,32 +123,40 @@
 
   .section-titles {
     font-size: 48px;
-    border-right: 3px solid;
     color: #ffffff;
     padding-bottom: 20px;
-    text-align: center;
-    margin: 60px auto 35px auto;
+    text-align: left;
+    margin: 45px auto -10px auto;
     width: 88%;
-    margin-left: 19px;
+    margin-left: 50px;
   }
 
   .row-flex {
       display: inline-flex;
+      flex-direction: column;
   }
 
   .container-image {
-      padding: 10px;
+      padding: 50px;
       position: relative;
   }
 
   .text-block {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 61px;
+    left: 35px;
     background-color: black;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .projects {
+      padding: 10px;
+  }
+
+  .col-2 {
+      padding: 5px;
   }
 
 
